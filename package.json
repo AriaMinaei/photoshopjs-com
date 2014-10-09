@@ -1,0 +1,26 @@
+{
+  "name": "photoshopjs-com",
+  "version": "0.1.0-dev.1",
+  "description": "(work in progress)",
+  "main": "lib/com.js",
+  "scripts": {
+    "prepublish": "coffee --bare --compile --output ./lib ./src",
+    "watch": "jitter src lib -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AriaMinaei/photoshopjs-com.git"
+  },
+  "keywords": ["photoshop", "extendscript"],
+  "author": "Aria Minaei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AriaMinaei/photoshopjs-com"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1",
+    "jitter": "~1.3.0"
+  }
+}
